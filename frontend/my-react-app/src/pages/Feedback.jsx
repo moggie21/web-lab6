@@ -1,9 +1,10 @@
 import Layout from "../components/Layout";
+import FeedbackForm from "../components/FeedbackForm";
 
 const Feedback = () => {
   return (
     <Layout>
-      <h1>Feedback</h1>
+      <FeedbackForm/>
     </Layout>
   );
 };
